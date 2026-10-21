@@ -2,6 +2,7 @@
 
 This repository only serves a Vercel edge redirect to the current site:
 
+- `/ambassadors` → `https://supercomp.bucis.org/ambassador` (HTTP 308 permanent redirect)
 - `/:path*` → `https://supercomp.bucis.org/:path*` (HTTP 308 permanent redirect)
 
 ## SEO behavior

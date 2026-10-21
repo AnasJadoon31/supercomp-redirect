@@ -12,6 +12,11 @@
   ],
   "redirects": [
     {
+      "source": "/ambassadors",
+      "destination": "https://supercomp.bucis.org/ambassador",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://supercomp.bucis.org/:path*",
       "permanent": true
